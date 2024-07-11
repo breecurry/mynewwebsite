@@ -1,0 +1,145 @@
+
+* {
+	margin: 2px;
+	padding: 2px;
+}
+
+
+img {
+	width: 150px;
+	height: 150px;
+	padding: 15px;
+	float: left;
+	position: fixed;
+	z-index: 5;
+	
+	
+}
+
+.p1 {
+	border: 2px solid black;
+	color: black;
+	background-color: rgba(100, 100, 110, 0.25)
+	display: block;
+	padding: 17px;
+	width: 80%;
+	height: 100%;
+	text-align: justify;
+	font-family: Georgia, serif;
+	font-size: 18px;
+	z-index: 1;
+	float: right;
+	box-sizing: border-box;
+	border-radius: 4px;
+	overflow: scroll;
+	position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nav {
+	display:block;
+	border: 4px outset black;
+	box-sizing: border-box;
+	border-radius: 5px;
+	padding: 10px;
+	color: white;
+	text-decoration: underline;
+	width: 100%;
+	height: 100%;
+}
+
+button {
+		background-color: aqua;
+		color: white;
+		padding: 4px;
+		margin: 5px;
+}
+
+.home {
+	display: inline-block;
+	
+}
+
+.about {
+	display: inline-block;
+}
+
+.examples {
+	display: inline-block;
+}
+
+.home:visited {
+	background-color: white;
+	color: black;
+	text-decoration: none;
+}
+
+.home:hover {
+	background-color: white;
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.home:active {
+	color: purple;
+	background-color: yellow;
+	text-decoration: none;
+}
+
+.about:visited {
+	background-color: white;
+	color: black;
+	text-decoration: none;
+}
+
+.about:hover {
+	background-color: white;
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.about:active {
+	color: purple;
+	background-color: yellow;
+	text-decoration: none;
+}
+
+.examples:visited {
+	background-color: white;
+	color: black;
+	text-decoration: none;
+}
+
+.examples:hover {
+	background-color: white;
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.examples:active {
+	color: purple;
+	background-color: yellow;
+	text-decoration: none;
+}
